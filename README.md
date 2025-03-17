@@ -31,5 +31,7 @@ openserver-client --url ws://localhost:8765
 - CUDA 지원 GPU (선택사항) 
 
 ## Example Code
+```python
 from openserver.client import GemmaClient
 from openserver.config import ServerConfig
+```
