@@ -12,12 +12,12 @@ pip install .
 
 ### 서버 실행
 ```bash
-openserver --host 0.0.0.0 --port 8765 --stream
+python3 openserver_h.py --host 0.0.0.0 --port 8765 --stream
 ```
 
 ### 클라이언트 실행
 ```bash
-openserver-client --url ws://localhost:8765
+python3 example_h.py --url ws://localhost:8765
 ```
 
 ## 환경 변수
